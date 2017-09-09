@@ -8,17 +8,14 @@
 
 import UIKit
 
-@IBDesignable class RoundedImageView: UIImageView {
-    
-    @IBInspectable var cornerRadius: CGFloat =  0 {
-        didSet {
-            layer.cornerRadius = cornerRadius
-        }
-    }
-    
-}
+
 
 class ThumbnailViewCell: UICollectionViewCell {
     
     @IBOutlet weak var thumbnailImageView: UIImageView!
+    @IBOutlet weak var profileImageView: RoundedImageView!
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var subTitleTextView: UITextView!
+    
+    
 }
