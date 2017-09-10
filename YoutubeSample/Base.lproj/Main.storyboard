@@ -35,8 +35,8 @@
                                             <rect key="frame" x="0.0" y="0.0" width="344" height="196"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image_ccc4b657" translatesAutoresizingMaskIntoConstraints="NO" id="jyI-C4-M4Q"/>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image_ccc4b657" translatesAutoresizingMaskIntoConstraints="NO" id="ynY-0D-4IO" customClass="RoundedImageView" customModule="YoutubeSample" customModuleProvider="target">
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image_ccc4b657" translatesAutoresizingMaskIntoConstraints="NO" id="jyI-C4-M4Q"/>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image_ccc4b657" translatesAutoresizingMaskIntoConstraints="NO" id="ynY-0D-4IO" customClass="RoundedImageView" customModule="YoutubeSample" customModuleProvider="target">
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="58" id="DeR-q8-z3e"/>
                                                         <constraint firstAttribute="height" constant="58" id="eH8-lz-So6"/>
@@ -48,18 +48,16 @@
                                                     </userDefinedRuntimeAttributes>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bxc-1M-sIc">
-                                                    <color key="backgroundColor" red="1" green="0.062745098039215685" blue="0.047058823529411764" alpha="1" colorSpace="calibratedRGB"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" name="Baskerville-Bold" family="Baskerville" pointSize="18"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Nqj-WP-daK">
-                                                    <color key="backgroundColor" red="0.048378645239999997" green="0.1169916909" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nqj-WP-daK">
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="30" id="t3r-9F-qVI"/>
                                                     </constraints>
                                                     <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <fontDescription key="fontDescription" name="Baskerville" family="Baskerville" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 </textView>
                                             </subviews>
@@ -161,7 +159,7 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="M5x-t8-NL9" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" translucent="NO" id="2gm-NB-TYD">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="2gm-NB-TYD">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="1" green="0.062745098040000002" blue="0.047058823530000002" alpha="1" colorSpace="calibratedRGB"/>
